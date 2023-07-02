@@ -2,14 +2,24 @@ import { FaDownload, FaGithub, FaLinkedin } from "react-icons/fa/index.esm";
 import "./Home.css";
 import { BiSolidContact } from "react-icons/bi/index.esm";
 import myResume from "../../assets/Resume_Md_Aminul_Islam.pdf";
+import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
   return (
     <div className="font-antique banner-container text-white">
-      {/* <h2 className="font-medium text-3xl">Hello</h2> */}
-      <h2 className="text-7xl font-medium text-center">
-        Hello, I am Md. Aminul Islam
-      </h2>
+      <div className="text-7xl font-medium text-center">
+        <TypeAnimation
+          sequence={[
+            "Hello, I am Md. Aminul Islam",
+            2000,
+            "Hello, I am a front-end developer",
+            2000,
+          ]}
+          wrapper="span"
+          speed={20}
+          repeat={Infinity}
+        ></TypeAnimation>
+      </div>
       <div className="flex justify-center items-center gap-5 mt-8">
         <a
           href="https://github.com/Aminul667"
