@@ -1,0 +1,12 @@
+.banner-container {
+    background-image: radial-gradient(
+        circle at 50% 50%,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.7) 100%
+      ),
+      url("../../assets/images/banner2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 200px 100px;
+  }
