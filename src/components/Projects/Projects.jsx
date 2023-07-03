@@ -17,7 +17,7 @@ import { Pagination, Navigation } from "swiper/modules";
 const Projects = () => {
   return (
     <>
-      <div className="px-28 mt-10 text-5xl font-antique">
+      <div className="px-28 mt-10 text-5xl font-antique" id="projects">
         <h2 className="mb-4">Projects</h2>
         <Swiper
           slidesPerView={1}
@@ -100,34 +100,33 @@ const Projects = () => {
                 <div className="flex items-center gap-3 text-3xl font-bold mb-4">
                   <FaLink></FaLink>
                   <a
-                    href="https://b710-chef-recipe-1e36e.web.app/"
+                    href="https://b7a11-kids-toy.web.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    CookBook
+                    KidsHero
                   </a>
                 </div>
                 <p className="text-xl mb-3">
                   <span className="text-2xl font-bold">Description:</span> A
-                  Bangladeshi recipe website where people will find recipes from
-                  famous Bangladeshi cooks.
+                  An e-commerce website to sell toys. You will find toys for kids here.
                 </p>
                 <p className="text-xl mb-3">
                   <span className="text-2xl font-bold">Technologies:</span>{" "}
-                  React JS, MongoDB, Tailwind CSS, Express JS, Firebase.
+                  React JS, MongoDB, Tailwind CSS, ExpressJS, Firebase.
                 </p>
                 <p className="text-xl mb-3">
                   <span className="text-2xl font-bold">Features:</span> <br />
                   <span className="ml-6">
-                    -You can see all the cooks we have and their recipes.
+                    -You can choose any toy from our toy gallery.
                   </span>{" "}
                   <br />
                   <span className="ml-6">
-                    -To see the full recipe, you have to login into the site.
+                    -You can search for a toy from our search option.
                   </span>{" "}
                   <br />
                   <span className="ml-6">
-                    -You can also bookmark the recipes you like most.
+                    -You can add a toy to your cart.
                   </span>
                 </p>
                 <div className="text-2xl mb-3">
@@ -135,7 +134,7 @@ const Projects = () => {
                   <div className="flex items-center gap-3 text-xl ml-6">
                     <FaLink></FaLink>
                     <a
-                      href="https://github.com/Aminul667/cook-book-client"
+                      href="https://github.com/Aminul667/kids-hero"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -145,7 +144,7 @@ const Projects = () => {
                   <div className="flex items-center gap-3 text-xl ml-6">
                     <FaLink></FaLink>
                     <a
-                      href="https://github.com/Aminul667/cook-book-server"
+                      href="https://github.com/Aminul667/kids-hero-server"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -163,34 +162,33 @@ const Projects = () => {
                 <div className="flex items-center gap-3 text-3xl font-bold mb-4">
                   <FaLink></FaLink>
                   <a
-                    href="https://b710-chef-recipe-1e36e.web.app/"
+                    href="https://b712-school-music.web.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    CookBook
+                    SchoolOfMusic
                   </a>
                 </div>
                 <p className="text-xl mb-3">
                   <span className="text-2xl font-bold">Description:</span> A
-                  Bangladeshi recipe website where people will find recipes from
-                  famous Bangladeshi cooks.
+                  A summer school camp to learn music
                 </p>
                 <p className="text-xl mb-3">
                   <span className="text-2xl font-bold">Technologies:</span>{" "}
-                  React JS, MongoDB, Tailwind CSS, Express JS, Firebase.
+                  ReactJS, MongoDB, Tailwind CSS, Express JS, Firebase, Axios, Tanstack query, JWT, payment system.
                 </p>
                 <p className="text-xl mb-3">
                   <span className="text-2xl font-bold">Features:</span> <br />
                   <span className="ml-6">
-                    -You can see all the cooks we have and their recipes.
+                    -There are three authentication systems admins, instructors, and users.
                   </span>{" "}
                   <br />
                   <span className="ml-6">
-                    -To see the full recipe, you have to login into the site.
+                    -Admins have their own dashboard to control everything.
                   </span>{" "}
                   <br />
                   <span className="ml-6">
-                    -You can also bookmark the recipes you like most.
+                    -Instructors can add a class and review it.
                   </span>
                 </p>
                 <div className="text-2xl mb-3">
@@ -198,7 +196,7 @@ const Projects = () => {
                   <div className="flex items-center gap-3 text-xl ml-6">
                     <FaLink></FaLink>
                     <a
-                      href="https://github.com/Aminul667/cook-book-client"
+                      href="https://github.com/Aminul667/school-of-music-client"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -208,7 +206,7 @@ const Projects = () => {
                   <div className="flex items-center gap-3 text-xl ml-6">
                     <FaLink></FaLink>
                     <a
-                      href="https://github.com/Aminul667/cook-book-server"
+                      href="https://github.com/Aminul667/school-of-music-server"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
