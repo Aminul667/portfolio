@@ -7,7 +7,7 @@ import { HashLink } from "react-router-hash-link";
 
 const Banner = () => {
   return (
-    <div className="font-antique banner-container text-white">
+    <div className="font-antique banner-container text-white" id="home">
       <div className="text-7xl font-medium text-center">
         <TypeAnimation
           sequence={[
