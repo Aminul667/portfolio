@@ -1,6 +1,9 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { BiLogoGmail } from "react-icons/bi/index.esm";
+import { BsPhoneVibrate } from "react-icons/bs/index.esm";
+import { FaGithub, FaLinkedin } from "react-icons/fa/index.esm";
+import { SiMinutemailer } from "react-icons/si/index.esm";
 
 const Contact = () => {
   const form = useRef();
@@ -27,7 +30,10 @@ const Contact = () => {
 
   return (
     <div className="px-28 py-6 mt-10 bg-neutral-900 text-white font-antique">
-      <h2 className="text-5xl font-normal mb-4">Get in Touch</h2>
+      <div className="flex items-center gap-3 text-5xl font-normal mb-4">
+        <SiMinutemailer></SiMinutemailer>
+        <h2>Get in Touch</h2>
+      </div>
       <div className="flex justify-between gap-7">
         <div className="w-1/2">
           <form ref={form} onSubmit={sendEmail}>
@@ -65,9 +71,42 @@ const Contact = () => {
           </form>
         </div>
         <div>
-          <p className="text-2xl mb-5">Please feel free to reach me at the contact information below</p>
+          <p className="text-2xl mb-5">
+            Please feel free to reach me at the contact information below
+          </p>
           <div>
-          <a href="mailto:aminulislamrahat134@gmail.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-xl hover:text-orange-400 mb-3"><BiLogoGmail></BiLogoGmail> aminulislamrahat134@gmail.com</a>
+            <a
+              href="mailto:aminulislamrahat134@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 text-xl hover:text-orange-400 mb-2"
+            >
+              <BiLogoGmail></BiLogoGmail> aminulislamrahat134@gmail.com
+            </a>
+            <a
+              href="tel:+8801324184222"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 text-xl hover:text-orange-400 mb-2"
+            >
+              <BsPhoneVibrate></BsPhoneVibrate> +8801324184222
+            </a>
+            <a
+              href="https://www.linkedin.com/in/md-aminul"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 text-xl hover:text-orange-400 mb-2"
+            >
+              <FaLinkedin></FaLinkedin> Md. Aminul Islam
+            </a>
+            <a
+              href="https://github.com/Aminul667"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 text-xl hover:text-orange-400 mb-2"
+            >
+              <FaGithub></FaGithub> Aminul667
+            </a>
           </div>
         </div>
       </div>
