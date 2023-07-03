@@ -34,13 +34,13 @@ const Contact = () => {
   };
 
   return (
-    <div className="px-28 py-12 mt-10 bg-neutral-900 text-white font-antique" id="contact">
-      <div className="flex items-center gap-3 text-5xl font-normal mb-4">
+    <div className="px-8 py-6 lg:px-28 lg:py-12 mt-10 bg-neutral-900 text-white font-antique" id="contact">
+      <div className="flex items-center justify-center lg:justify-normal gap-3 text-3xl lg:text-5xl font-normal mb-4">
         <SiMinutemailer></SiMinutemailer>
         <h2>Get in Touch</h2>
       </div>
-      <div className="flex justify-between gap-7">
-        <div className="w-1/2">
+      <div className="flex flex-col lg:flex-row justify-between gap-7">
+        <div className="lg:w-1/2">
           <form ref={form} onSubmit={sendEmail}>
             <div className="mb-3">
               {/* <label className="block">Name</label> */}
