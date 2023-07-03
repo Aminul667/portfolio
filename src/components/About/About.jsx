@@ -3,16 +3,16 @@ import img from "../../assets/images/rahat.jpg";
 const About = () => {
   return (
     <div
-      className="px-28 flex justify-between items-center gap-10 mt-10 font-antique text-justify"
+      className="px-8 lg:px-28 flex flex-col lg:flex-row justify-between items-center gap-10 mt-10 font-antique text-justify"
       id="about"
     >
       <img
         src={img}
         alt=""
-        className="w-[300px] rounded-l-[50%] rounded-r-[50%]"
+        className="w-[150px] h-[150px] rounded-full lg:w-[300px] lg:h-auto lg:rounded-l-[50%] lg:rounded-r-[50%]"
       />
       <div>
-        <h2 className="text-5xl font-normal mb-4">About Me</h2>
+        <h2 className="text-3xl text-center lg:text-left lg:text-5xl font-normal mb-4">About Me</h2>
         <p className="text-lg mb-3">
           I am Aminul, a skilled and versatile front-end developer proficient in
           HTML, CSS, JavaScript, Tailwind, Bootstrap, React, MongoDB, and
