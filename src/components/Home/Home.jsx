@@ -8,11 +8,10 @@ import Skills from "../Skills/Skills";
 const Home = () => {
   return (
     <>
-      {/* <NavBar></NavBar> */}
-      {/* <Banner></Banner> */}
-      {/* <About></About> */}
-      {/* <Skills></Skills> */}
-      {/* <Projects></Projects> */}
+      <Banner></Banner>
+      <About></About>
+      <Skills></Skills>
+      <Projects></Projects>
       <Contact></Contact>
     </>
   );
