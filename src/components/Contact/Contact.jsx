@@ -4,9 +4,13 @@ import { BiLogoGmail } from "react-icons/bi/index.esm";
 import { BsPhoneVibrate } from "react-icons/bs/index.esm";
 import { FaGithub, FaLinkedin } from "react-icons/fa/index.esm";
 import { SiMinutemailer } from "react-icons/si/index.esm";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   const form = useRef();
+
+  const notify = () => toast("Message has been sent!");
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -21,6 +25,7 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          notify();
         },
         (error) => {
           console.log(error.text);
@@ -43,6 +48,7 @@ const Contact = () => {
                 type="text"
                 name="from_name"
                 placeholder="Name"
+                required
                 className="rounded-md bg-neutral-800 w-full px-3 py-2 focus:outline-none focus:border-orange-500 focus:ring-1 focus:ring-orange-400"
               />
             </div>
@@ -51,6 +57,7 @@ const Contact = () => {
                 type="email"
                 name="from_email"
                 placeholder="Email"
+                required
                 className="rounded-md bg-neutral-800 w-full px-3 py-2 focus:outline-none focus:border-orange-500 focus:ring-1 focus:ring-orange-400"
               />
             </div>
@@ -60,14 +67,18 @@ const Contact = () => {
                 name="message"
                 placeholder="Message"
                 rows="5"
+                required
                 className="rounded-md bg-neutral-800 w-full px-3 py-2 focus:outline-none focus:border-orange-500 focus:ring-1 focus:ring-orange-400"
               />
             </div>
-            <input
-              type="submit"
-              value="Send"
-              className="w-full font-medium text-xl px-5 py-1 rounded-md bg-orange-500 hover:bg-orange-600"
-            />
+            <div>
+              <input
+                type="submit"
+                value="Send"
+                className="w-full font-medium text-xl px-5 py-1 rounded-md bg-orange-500 hover:bg-orange-600"
+              />
+              <ToastContainer />
+            </div>
           </form>
         </div>
         <div>
