@@ -7,8 +7,8 @@ import { HashLink } from "react-router-hash-link";
 
 const Banner = () => {
   return (
-    <div className="font-antique banner-container text-white" id="home">
-      <div className="text-7xl font-medium text-center">
+    <div className="font-antique banner-container text-white lg:px-[100px] lg:py-[200px] px-[50px] py-[100px]" id="home">
+      <div className="text-3xl lg:text-7xl font-medium text-center">
         <TypeAnimation
           sequence={[
             "Hello, I am Md. Aminul Islam",
@@ -37,7 +37,7 @@ const Banner = () => {
           <FaLinkedin className="text-5xl hover:text-orange-400"></FaLinkedin>
         </a>
       </div>
-      <div className="flex gap-4 justify-center items-center mt-8">
+      <div className="flex flex-col lg:flex-row gap-4 justify-center items-center mt-8">
         <a
           href={myResume}
           download="Resume_Md_Aminul_Islam"
