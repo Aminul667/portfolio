@@ -34,7 +34,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="px-28 py-6 mt-10 bg-neutral-900 text-white font-antique">
+    <div className="px-28 py-6 mt-10 bg-neutral-900 text-white font-antique" id="contact">
       <div className="flex items-center gap-3 text-5xl font-normal mb-4">
         <SiMinutemailer></SiMinutemailer>
         <h2>Get in Touch</h2>

@@ -48,7 +48,7 @@ const Banner = () => {
             Resume <FaDownload></FaDownload>
           </button>
         </a>
-        <HashLink to="#about" smooth>
+        <HashLink to="#contact" smooth>
           <button className="font-medium text-3xl flex gap-3 items-center px-5 py-3 border-2 rounded-md hover:border-orange-400">
             Contact <BiSolidContact></BiSolidContact>
           </button>
