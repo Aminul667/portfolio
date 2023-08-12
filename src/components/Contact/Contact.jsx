@@ -75,7 +75,7 @@ const Contact = () => {
               <input
                 type="submit"
                 value="Send"
-                className="w-full font-medium text-xl px-5 py-1 rounded-md bg-orange-500 hover:bg-orange-600"
+                className="w-full font-medium text-xl px-5 py-1 rounded-md bg-orange-500 hover:bg-orange-600 cursor-pointer"
               />
               <ToastContainer />
             </div>
