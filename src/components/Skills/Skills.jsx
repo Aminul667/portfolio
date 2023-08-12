@@ -12,6 +12,7 @@ import {
   FaCss3Alt,
   FaHtml5,
   FaNodeJs,
+  FaPython,
   FaReact,
 } from "react-icons/fa/index.esm";
 import { SiExpress, SiMongodb } from "react-icons/si/index.esm";
@@ -106,21 +107,36 @@ const Skills = () => {
           </div>
         </div>
       </div> */}
-      <div className="grid grid-cols-4 gap-4 items-center justify-center">
-        <div className="text-center border border-red-600 m-auto">
+      <div className="grid lg:grid-cols-4 gap-4">
+        <div className="text-center border border-orange-700 p-3 rounded-lg m-auto">
           <FaHtml5 className="text-orange-700 text-[150px]"></FaHtml5>
         </div>
-        <div className="text-center border border-red-600 m-auto">
-          <FaCss3Alt className="text-orange-700 text-[150px]"></FaCss3Alt>
+        <div className="text-center border border-blue-700 p-3 rounded-lg m-auto">
+          <FaCss3Alt className="text-blue-700 text-[150px]"></FaCss3Alt>
         </div>
-        <div className="text-center border border-red-600 m-auto">
-          <TbBrandJavascript className="text-orange-700 text-[150px]"></TbBrandJavascript>
+        <div className="text-center border border-yellow-500 p-3 rounded-lg m-auto">
+          <TbBrandJavascript className="text-yellow-500 text-[150px]"></TbBrandJavascript>
         </div>
-        <div className="text-center border border-red-600 m-auto">
-          <TbBrandTailwind className="text-orange-700 text-[150px]"></TbBrandTailwind>
+        <div className="text-center border border-blue-500 p-3 rounded-lg m-auto">
+          <TbBrandTailwind className="text-blue-500 text-[150px]"></TbBrandTailwind>
         </div>
-        <div className="text-center border border-red-600 m-auto">
-          <FaBootstrap className="text-orange-700 text-[150px]"></FaBootstrap>
+        <div className="text-center border border-purple-600 p-3 rounded-lg m-auto">
+          <FaBootstrap className="text-purple-600 text-[150px]"></FaBootstrap>
+        </div>
+        <div className="text-center border border-cyan-500 p-3 rounded-lg m-auto">
+          <FaReact className="text-cyan-500 text-[150px]"></FaReact>
+        </div>
+        <div className="text-center border border-green-500 p-3 rounded-lg m-auto">
+          <FaNodeJs className="text-green-500 text-[150px]"></FaNodeJs>
+        </div>
+        <div className="text-center border border-gray-600 p-3 rounded-lg m-auto">
+          <SiExpress className="text-gray-600 text-[150px]"></SiExpress>
+        </div>
+        <div className="text-center border border-green-800 p-3 rounded-lg m-auto">
+          <SiMongodb className="text-green-800 text-[150px]"></SiMongodb>
+        </div>
+        <div className="text-center border border-blue-800 p-3 rounded-lg m-auto">
+          <FaPython className="text-blue-800 text-[150px]"></FaPython>
         </div>
       </div>
     </div>
