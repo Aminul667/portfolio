@@ -31,14 +31,14 @@ const Banner = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithub className="text-5xl hover:text-orange-400"></FaGithub>
+            <FaGithub className="text-4xl md:text-5xl hover:text-orange-400"></FaGithub>
           </a>
           <a
             href="https://www.linkedin.com/in/md-aminul"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin className="text-5xl hover:text-orange-400"></FaLinkedin>
+            <FaLinkedin className="text-4xl md:text-5xl hover:text-orange-400"></FaLinkedin>
           </a>
         </div>
         <div className="flex flex-col lg:flex-row gap-4 justify-center items-center mt-8">
@@ -48,12 +48,12 @@ const Banner = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="font-medium text-3xl flex gap-3 items-center px-5 py-3 border-2 rounded-md hover:border-orange-400">
+            <button className="font-medium text-2xl md:text-3xl flex gap-3 items-center px-4 md:px-5 py-2 md:py-3 border-2 rounded-md hover:border-orange-400">
               Resume <FaDownload></FaDownload>
             </button>
           </a>
           <HashLink to="#contact" smooth>
-            <button className="font-medium text-3xl flex gap-3 items-center px-5 py-3 border-2 rounded-md hover:border-orange-400">
+            <button className="font-medium text-2xl md:text-3xl flex gap-3 items-center px-4 md:px-5 py-2 md:py-3 border-2 rounded-md hover:border-orange-400">
               Contact <BiSolidContact></BiSolidContact>
             </button>
           </HashLink>
