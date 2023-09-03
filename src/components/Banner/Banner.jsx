@@ -7,52 +7,57 @@ import { HashLink } from "react-router-hash-link";
 
 const Banner = () => {
   return (
-    <div className="font-antique banner-container text-white lg:px-[100px] lg:py-[200px] px-[50px] py-[100px]" id="home">
-      <div className="text-3xl lg:text-7xl font-medium text-center">
-        <TypeAnimation
-          sequence={[
-            "Hello, I am Md. Aminul Islam",
-            2000,
-            "Hello, I am a front-end developer",
-            2000,
-          ]}
-          wrapper="span"
-          speed={20}
-          repeat={Infinity}
-        ></TypeAnimation>
-      </div>
-      <div className="flex justify-center items-center gap-5 mt-8">
-        <a
-          href="https://github.com/Aminul667"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaGithub className="text-5xl hover:text-orange-400"></FaGithub>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/md-aminul"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaLinkedin className="text-5xl hover:text-orange-400"></FaLinkedin>
-        </a>
-      </div>
-      <div className="flex flex-col lg:flex-row gap-4 justify-center items-center mt-8">
-        <a
-          href={myResume}
-          download="Resume_Md_Aminul_Islam"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <button className="font-medium text-3xl flex gap-3 items-center px-5 py-3 border-2 rounded-md hover:border-orange-400">
-            Resume <FaDownload></FaDownload>
-          </button>
-        </a>
-        <HashLink to="#contact" smooth>
-          <button className="font-medium text-3xl flex gap-3 items-center px-5 py-3 border-2 rounded-md hover:border-orange-400">
-            Contact <BiSolidContact></BiSolidContact>
-          </button>
-        </HashLink>
+    <div
+      className="font-antique text-white banner-container flex justify-center items-center h-[100vh]"
+      id="home"
+    >
+      <div>
+        <div className="text-3xl lg:text-7xl font-medium text-center">
+          <TypeAnimation
+            sequence={[
+              "Hello, I am Md. Aminul Islam",
+              2000,
+              "Hello, I am a front-end developer",
+              2000,
+            ]}
+            wrapper="span"
+            speed={20}
+            repeat={Infinity}
+          ></TypeAnimation>
+        </div>
+        <div className="flex justify-center items-center gap-5 mt-8">
+          <a
+            href="https://github.com/Aminul667"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub className="text-5xl hover:text-orange-400"></FaGithub>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/md-aminul"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin className="text-5xl hover:text-orange-400"></FaLinkedin>
+          </a>
+        </div>
+        <div className="flex flex-col lg:flex-row gap-4 justify-center items-center mt-8">
+          <a
+            href={myResume}
+            download="Resume_Md_Aminul_Islam"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="font-medium text-3xl flex gap-3 items-center px-5 py-3 border-2 rounded-md hover:border-orange-400">
+              Resume <FaDownload></FaDownload>
+            </button>
+          </a>
+          <HashLink to="#contact" smooth>
+            <button className="font-medium text-3xl flex gap-3 items-center px-5 py-3 border-2 rounded-md hover:border-orange-400">
+              Contact <BiSolidContact></BiSolidContact>
+            </button>
+          </HashLink>
+        </div>
       </div>
     </div>
   );
