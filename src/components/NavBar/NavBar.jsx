@@ -13,7 +13,7 @@ const NavBar = () => {
   return (
     <nav className="text-center text-lg lg:text-xl">
       <div className="text-white font-antique w-full p-4 bg-neutral-900 opacity-80 fixed top-0 z-10">
-        <HashLink to="#home" smooth className="mr-5 md:mr-5 md:mr-10">
+        <HashLink to="#home" smooth className="mr-5 md:mr-10">
           Home
         </HashLink>
         <HashLink
