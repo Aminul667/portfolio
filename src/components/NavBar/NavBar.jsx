@@ -14,7 +14,7 @@ const NavBar = () => {
     <nav className="text-center text-xl">
       <div className="text-white font-antique w-full p-4 bg-neutral-900 opacity-80 fixed top-0 z-10">
         <HashLink to="#home" smooth className="mr-10">
-          Home CH
+          Home
         </HashLink>
         <HashLink
           to="#about"
