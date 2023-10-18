@@ -15,9 +15,9 @@ const Banner = () => {
         <div className="text-3xl lg:text-7xl font-medium text-center">
           <TypeAnimation
             sequence={[
-              "Hello, I am Md. Aminul Islam",
+              "Hello, I am Md. Aminul Islam !",
               2000,
-              "Hello, I am a front-end developer",
+              "Thanks for visiting me",
               2000,
             ]}
             wrapper="span"

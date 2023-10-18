@@ -9,7 +9,7 @@ import {
   FaRProject
 } from "react-icons/fa/index.esm";
 import { SiExpress, SiMongodb } from "react-icons/si/index.esm";
-import { TbBrandJavascript, TbBrandTailwind } from "react-icons/tb/index.esm";
+import { TbBrandJavascript, TbBrandTailwind, TbSql } from "react-icons/tb/index.esm";
 
 const Skills = () => {
   return (
@@ -54,6 +54,9 @@ const Skills = () => {
         </div>
         <div className="text-center border border-blue-400 p-3 rounded-lg m-auto">
           <FaRProject className="text-blue-400 text-[100px] md:text-[150px]"></FaRProject>
+        </div>
+        <div className="text-center border border-blue-900 p-3 rounded-lg m-auto">
+          <TbSql className="text-blue-700 text-[100px] md:text-[150px]"></TbSql>
         </div>
       </div>
     </div>
