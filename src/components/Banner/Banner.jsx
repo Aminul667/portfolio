@@ -1,4 +1,4 @@
-import { FaDownload, FaGithub, FaLinkedin } from "react-icons/fa/index.esm";
+import { FaDownload, FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa/index.esm";
 import "./Banner.css";
 import { BiSolidContact } from "react-icons/bi/index.esm";
 import myResume from "../../assets/Resume_Md_Aminul_Islam.pdf";
@@ -38,7 +38,14 @@ const Banner = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin className="text-4xl md:text-5xl hover:text-orange-400"></FaLinkedin>
+            <FaLinkedin className="text-4xl md:text-5xl hover:text-blue-500"></FaLinkedin>
+          </a>
+          <a
+            href="https://www.youtube.com/@programmingmathematicslite5118"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaYoutube className="text-5xl md:text-5xl hover:text-red-500"></FaYoutube>
           </a>
         </div>
         <div className="flex flex-col lg:flex-row gap-4 justify-center items-center mt-8">

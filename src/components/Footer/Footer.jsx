@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa/index.esm";
+import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa/index.esm";
 
 const Footer = () => {
   return (
@@ -30,7 +30,14 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin className="text-3xl hover:text-orange-400"></FaLinkedin>
+            <FaLinkedin className="text-3xl hover:text-blue-500"></FaLinkedin>
+          </a>
+          <a
+            href="https://www.youtube.com/@programmingmathematicslite5118"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaYoutube className="text-3xl md:text-3xl hover:text-red-500"></FaYoutube>
           </a>
         </div>
       </div>
