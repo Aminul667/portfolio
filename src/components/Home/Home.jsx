@@ -11,8 +11,8 @@ const Home = () => {
     <>
       <Banner></Banner>
       <About></About>
-      <Experience></Experience>
       <Skills></Skills>
+      <Experience></Experience>
       <Projects></Projects>
       <Contact></Contact>
     </>
