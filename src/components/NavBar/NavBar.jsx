@@ -25,6 +25,14 @@ const NavBar = () => {
           About
         </HashLink>
         <HashLink
+          to="#experience"
+          smooth
+          className="mr-5 md:mr-10 hover:text-orange-400"
+          scroll={(el) => scrollWithOffset(el, 100)}
+        >
+          Experience
+        </HashLink>
+        <HashLink
           to="#skills"
           smooth
           className="mr-5 md:mr-10 hover:text-orange-400"
