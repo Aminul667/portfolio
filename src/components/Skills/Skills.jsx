@@ -5,6 +5,8 @@ import {
   FaNodeJs,
   FaPython,
   FaReact,
+  FaCuttlefish,
+  FaRProject
 } from "react-icons/fa/index.esm";
 import { SiExpress, SiMongodb } from "react-icons/si/index.esm";
 import { TbBrandJavascript, TbBrandTailwind } from "react-icons/tb/index.esm";
@@ -17,6 +19,12 @@ const Skills = () => {
     >
       <h2 className="font-normal mb-4">Skills</h2>
       <div className="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2 gap-4">
+        <div className="text-center border border-blue-800 p-3 rounded-lg m-auto">
+          <FaPython className="text-blue-800 text-[100px] md:text-[150px]"></FaPython>
+        </div>
+        <div className="text-center border border-blue-600 p-3 rounded-lg m-auto">
+          <FaCuttlefish className="text-blue-600 text-[100px] md:text-[150px]"></FaCuttlefish>
+        </div>
         <div className="text-center border border-orange-700 p-3 rounded-lg m-auto">
           <FaHtml5 className="text-orange-700 text-[100px] md:text-[150px]"></FaHtml5>
         </div>
@@ -44,8 +52,8 @@ const Skills = () => {
         <div className="text-center border border-green-800 p-3 rounded-lg m-auto">
           <SiMongodb className="text-green-800 text-[100px] md:text-[150px]"></SiMongodb>
         </div>
-        <div className="text-center border border-blue-800 p-3 rounded-lg m-auto">
-          <FaPython className="text-blue-800 text-[100px] md:text-[150px]"></FaPython>
+        <div className="text-center border border-blue-400 p-3 rounded-lg m-auto">
+          <FaRProject className="text-blue-400 text-[100px] md:text-[150px]"></FaRProject>
         </div>
       </div>
     </div>
