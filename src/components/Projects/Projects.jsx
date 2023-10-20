@@ -2,7 +2,7 @@ import { FaLink } from "react-icons/fa/index.esm";
 import cookbook from "../../assets/images/cookbook.png";
 import kidstoy from "../../assets/images/kidstoy.png";
 import music from "../../assets/images/music.png";
-
+import sales from "../../assets/images/sales.png";
 
 const Projects = () => {
   const projectsData = [
@@ -25,13 +25,23 @@ const Projects = () => {
       server: "https://github.com/Aminul667/cook-book-server",
     },
     {
-      id: 2,
+      id: 3,
       img: music,
       liveLink: "https://b712-school-music.web.app/",
       projectName: "SchoolOfMusic",
-      techonologies: "ReactJS, MongoDB, Tailwind CSS, Express JS, Firebase, Axios, Tanstack query, JWT, Payment System",
+      techonologies:
+        "ReactJS, MongoDB, Tailwind CSS, Express JS, Firebase, Axios, Tanstack query, JWT, Payment System",
       client: "https://github.com/Aminul667/school-of-music-client",
       server: "https://github.com/Aminul667/school-of-music-server",
+    },
+    {
+      id: 4,
+      img: sales,
+      liveLink:
+        "https://github.com/Aminul667/Project_DA/blob/main/SalesAnalysis/SalesAnalysis.ipynb",
+      projectName: "Sales Analysis",
+      techonologies: "Python, Pandas, Matplotlib, Seaborn, Data Manipulation",
+      client: "https://github.com/Aminul667/Project_DA/tree/main/SalesAnalysis",
     },
   ];
 
@@ -48,7 +58,7 @@ const Projects = () => {
           {projectsData.map((project) => (
             <div
               key={project.id}
-              className="grow basis-52 border-2 rounded-lg border-orange-500 px-3 py-2"
+              className="grow basis-80 border-2 rounded-lg border-orange-500 px-3 py-2"
             >
               <img src={project.img} alt="" />
               <div className="flex items-center gap-3 text-xl lg:text-2xl font-bold my-4">
@@ -77,16 +87,18 @@ const Projects = () => {
                     Client
                   </a>
                 </div>
-                <div className="flex items-center gap-3 text-lg ml-3 lg:ml-6 font-medium">
-                  <FaLink></FaLink>
-                  <a
-                    href={project.server}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Server
-                  </a>
-                </div>
+                {project?.server && (
+                  <div className="flex items-center gap-3 text-lg ml-3 lg:ml-6 font-medium">
+                    <FaLink></FaLink>
+                    <a
+                      href={project.server}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Server
+                    </a>
+                  </div>
+                )}
               </div>
             </div>
           ))}
