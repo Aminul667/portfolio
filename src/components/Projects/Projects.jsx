@@ -58,7 +58,7 @@ const Projects = () => {
           {projectsData.map((project) => (
             <div
               key={project.id}
-              className="grow basis-80 border-2 rounded-lg border-orange-500 px-3 py-2"
+              className="grow basis-72 border-2 rounded-lg border-orange-500 px-3 py-2"
             >
               <img src={project.img} alt="" />
               <div className="flex items-center gap-3 text-xl lg:text-2xl font-bold my-4">
