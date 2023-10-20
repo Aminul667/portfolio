@@ -26,19 +26,30 @@ const Skills = () => {
     return () => {
       const container = ".tagcloud";
       const texts = [
+        "Python",
+        "NumPy",
+        "Pandas",
+        "Matplotlib",
+        "Seaborn",
+        "Plotly",
+        "Streamlit",
         "HTML",
         "CSS",
-        "SASS",
+        "Bootstrap",
+        "TailwindCSS",
         "JavaScript",
         "React",
-        "Vue",
-        "Nuxt",
         "NodeJS",
-        "Babel",
-        "Jquery",
         "ES6",
-        "GIT",
-        "GITHUB",
+        "ExpressJS",
+        "MongoDB",
+        "Firebase",
+        "Git",
+        "GitHub",
+        "C",
+        "Matlab",
+        "SAS",
+        "R"
       ];
 
       const options = {

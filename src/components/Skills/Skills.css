@@ -22,7 +22,7 @@
 /* Change color of each text in sphere on hover   */
 .tagcloud--item {
     color: orange;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .tagcloud--item:hover {
