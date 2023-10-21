@@ -50,7 +50,7 @@ const Projects = () => {
   return (
     <>
       <div
-        className="px-8 lg:px-28 mt-10 text-3xl lg:text-5xl font-antique"
+        className="px-8 lg:px-28 mt-10 text-3xl lg:text-5xl font-playfair"
         id="projects"
       >
         <h2 className="mb-4">Projects</h2>

@@ -1,7 +1,7 @@
 const Experience = () => {
   return (
     <div
-      className="px-8 lg:px-24 mt-10 font-antique"
+      className="px-8 lg:px-24 mt-10 font-playfair"
       id="experience"
     >
       <h2 className="font-normal mb-4 text-3xl lg:text-5xl">Experience</h2>

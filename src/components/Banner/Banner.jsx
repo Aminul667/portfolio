@@ -57,14 +57,14 @@ const Banner = () => {
 
   return (
     <div
-      className="font-antique text-white banner-container flex justify-around items-center h-[100vh]"
+      className="font-playfair text-white banner-container flex justify-around items-center h-[100vh]"
       id="home"
     >
       <div>
         <div className="text-2xl lg:text-4xl font-medium">
           <TypeAnimation
             sequence={[
-              "Hello, I am Md. Aminul Islam !",
+              "Hello, I am Aminul !",
               2000,
               "Thanks for visiting me",
               2000,
@@ -104,19 +104,21 @@ const Banner = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="font-medium text-2xl md:text-3xl flex gap-3 items-center px-4 md:px-5 py-2 md:py-3 border-2 rounded-md hover:border-orange-400">
+            <button className="font-medium text-2xl flex gap-3 items-center px-4 md:px-5 py-2 md:py-3 border-2 rounded-md hover:border-orange-400">
               Resume <FaDownload></FaDownload>
             </button>
           </a>
           <HashLink to="#contact" smooth>
-            <button className="font-medium text-2xl md:text-3xl flex gap-3 items-center px-4 md:px-5 py-2 md:py-3 border-2 rounded-md hover:border-orange-400">
+            <button className="font-medium text-2xl flex gap-3 items-center px-4 md:px-5 py-2 md:py-3 border-2 rounded-md hover:border-orange-400">
               Contact <BiSolidContact></BiSolidContact>
             </button>
           </HashLink>
         </div>
       </div>
-      <div className="text-sphere">
-        <span className="tagcloud" ref={containerRef}></span>
+      <div className="hidden md:block">
+        <div className="text-sphere">
+          <span className="tagcloud" ref={containerRef}></span>
+        </div>
       </div>
     </div>
   );

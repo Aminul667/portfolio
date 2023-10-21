@@ -21,7 +21,7 @@ const Skills = () => {
   return (
     <>
       <div
-        className="px-8 lg:px-24 mt-10 font-antique text-3xl lg:text-5xl"
+        className="px-8 lg:px-24 mt-10 font-playfair text-3xl lg:text-5xl"
         id="skills"
       >
         <h2 className="font-normal mb-4">Skills</h2>
@@ -67,10 +67,6 @@ const Skills = () => {
           </div>
         </div>
       </div>
-
-      {/* <div className="text-sphere">
-        <span className="tagcloud" ref={containerRef}></span>
-      </div> */}
     </>
   );
 };
