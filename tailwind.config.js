@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         antique: ["Bacasime Antique", "serif"],
+        playfair: ["Playfair Display", "serif"],
       },
     },
   },

@@ -3,7 +3,7 @@ import img from "../../assets/images/rahat.jpg";
 const About = () => {
   return (
     <div
-      className="px-8 lg:px-28 flex flex-col lg:flex-row justify-between items-center gap-10 mt-10 font-antique text-justify"
+      className="px-8 lg:px-28 flex flex-col lg:flex-row justify-between items-center gap-10 mt-10 font-playfair text-justify"
       id="about"
     >
       <img

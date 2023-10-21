@@ -1,30 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+
 .text-sphere {
-    position: relative;
-    top: 0;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background: #1e1e1e; */
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: #1e1e1e; */
 }
 
 .tagcloud {
-    display: inline-block;
-    top: 0;
-    left: 0;
-    font-family: 'Bacasime Antique', sans-serif;
-    font-weight: 600;
-    letter-spacing: 0.0625em;
-    font-size: 1.3em;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  font-family: "Playpen Sans", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.0625em;
+  font-size: 1.3em;
 }
 
 /* Change color of each text in sphere on hover   */
 .tagcloud--item {
-    color: orange;
-    /* text-transform: uppercase; */
+  /* color: orange; */
+  /* text-transform: uppercase; */
 }
 
 .tagcloud--item:hover {
-    color: #ff6347;
+  color: #ff6347;
 }
