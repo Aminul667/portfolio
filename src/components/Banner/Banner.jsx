@@ -1,18 +1,67 @@
-import { FaDownload, FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa/index.esm";
+import {
+  FaDownload,
+  FaGithub,
+  FaLinkedin,
+  FaYoutube,
+} from "react-icons/fa/index.esm";
 import "./Banner.css";
 import { BiSolidContact } from "react-icons/bi/index.esm";
 import myResume from "../../assets/Resume_Md_Aminul_Islam.pdf";
 import { TypeAnimation } from "react-type-animation";
 import { HashLink } from "react-router-hash-link";
+import { useEffect, useRef } from "react";
+import TagCloud from "TagCloud";
 
 const Banner = () => {
+  const containerRef = useRef(null);
+  // Animation settings for Text Cloud
+  useEffect(() => {
+    // const container = ".tagcloud";
+    const container = containerRef.current;
+    const texts = [
+      "Python",
+      "NumPy",
+      "Pandas",
+      "Matplotlib",
+      "Seaborn",
+      "Plotly",
+      "Streamlit",
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "TailwindCSS",
+      "JavaScript",
+      "React",
+      "NodeJS",
+      "ES6",
+      "ExpressJS",
+      "MongoDB",
+      "Firebase",
+      "Git",
+      "GitHub",
+      "C",
+      "Matlab",
+      "SAS",
+      "R",
+    ];
+
+    const options = {
+      radius: 250,
+      maxSpeed: "normal",
+      initSpeed: "normal",
+      keep: true,
+    };
+
+    TagCloud(container, texts, options);
+  }, []);
+
   return (
     <div
-      className="font-antique text-white banner-container flex justify-center items-center h-[100vh]"
+      className="font-antique text-white banner-container flex justify-around items-center h-[100vh]"
       id="home"
     >
       <div>
-        <div className="text-3xl lg:text-7xl font-medium text-center">
+        <div className="text-2xl lg:text-4xl font-medium">
           <TypeAnimation
             sequence={[
               "Hello, I am Md. Aminul Islam !",
@@ -65,6 +114,9 @@ const Banner = () => {
             </button>
           </HashLink>
         </div>
+      </div>
+      <div className="text-sphere">
+        <span className="tagcloud" ref={containerRef}></span>
       </div>
     </div>
   );

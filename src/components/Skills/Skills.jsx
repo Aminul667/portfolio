@@ -1,4 +1,3 @@
-import { useEffect, useRef } from "react";
 import {
   FaBootstrap,
   FaCss3Alt,
@@ -16,56 +15,12 @@ import {
   TbSql,
 } from "react-icons/tb/index.esm";
 
-// tagcloud
-import TagCloud from "TagCloud";
 import "./Skills.css";
 
 const Skills = () => {
-  const containerRef = useRef(null);
-  // Animation settings for Text Cloud
-  useEffect(() => {
-    // const container = ".tagcloud";
-    const container = containerRef.current;
-    const texts = [
-      "Python",
-      "NumPy",
-      "Pandas",
-      "Matplotlib",
-      "Seaborn",
-      "Plotly",
-      "Streamlit",
-      "HTML",
-      "CSS",
-      "Bootstrap",
-      "TailwindCSS",
-      "JavaScript",
-      "React",
-      "NodeJS",
-      "ES6",
-      "ExpressJS",
-      "MongoDB",
-      "Firebase",
-      "Git",
-      "GitHub",
-      "C",
-      "Matlab",
-      "SAS",
-      "R",
-    ];
-
-    const options = {
-      radius: 300,
-      maxSpeed: "normal",
-      initSpeed: "normal",
-      keep: true,
-    };
-
-    TagCloud(container, texts, options);
-  }, []);
-
   return (
     <>
-      {/* <div
+      <div
         className="px-8 lg:px-24 mt-10 font-antique text-3xl lg:text-5xl"
         id="skills"
       >
@@ -111,11 +66,11 @@ const Skills = () => {
             <TbSql className="text-blue-700 text-[100px] md:text-[150px]"></TbSql>
           </div>
         </div>
-      </div> */}
-
-      <div className="text-sphere bg-slate-600">
-        <span className="tagcloud" ref={containerRef}></span>
       </div>
+
+      {/* <div className="text-sphere">
+        <span className="tagcloud" ref={containerRef}></span>
+      </div> */}
     </>
   );
 };
