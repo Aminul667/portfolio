@@ -6,7 +6,8 @@ import {
 } from "react-icons/fa/index.esm";
 import "./Banner.css";
 import { BiSolidContact } from "react-icons/bi/index.esm";
-import myResume from "../../assets/Resume_Md_Aminul_Islam.pdf";
+// import myResume from "../../assets/Resume_Md_Aminul_Islam.pdf";
+import myResume from "../../assets/CV_Md_Aminul_Islam.pdf";
 import { TypeAnimation } from "react-type-animation";
 import { HashLink } from "react-router-hash-link";
 import { useEffect, useRef } from "react";
