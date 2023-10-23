@@ -14,7 +14,6 @@ import TagCloud from "TagCloud";
 
 const Banner = () => {
   const containerRef = useRef(null);
-  // Animation settings for Text Cloud
   useEffect(() => {
     // const container = ".tagcloud";
     const container = containerRef.current;
@@ -60,8 +59,8 @@ const Banner = () => {
       className="font-playfair text-white banner-container flex justify-around items-center h-[100vh]"
       id="home"
     >
-      <div>
-        <div className="text-2xl lg:text-4xl font-medium">
+      <div className="w-1/2">
+        <div className="text-2xl lg:text-4xl font-medium text-center">
           <TypeAnimation
             sequence={[
               "Hello, I am Aminul !",
@@ -115,7 +114,7 @@ const Banner = () => {
           </HashLink>
         </div>
       </div>
-      <div className="hidden md:block">
+      <div className="hidden md:block w-1/2">
         <div className="text-sphere">
           <span className="tagcloud" ref={containerRef}></span>
         </div>

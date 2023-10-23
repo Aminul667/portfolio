@@ -32,7 +32,7 @@ const Projects = () => {
       liveLink: "https://b712-school-music.web.app/",
       projectName: "SchoolOfMusic",
       techonologies:
-        "ReactJS, MongoDB, Tailwind CSS, Express JS, Firebase, Axios, Tanstack query, JWT, Payment System",
+        "ReactJS, MongoDB, Tailwind CSS, Express JS, Firebase, Axios, Tanstack query, JWT",
       client: "https://github.com/Aminul667/school-of-music-client",
       server: "https://github.com/Aminul667/school-of-music-server",
     },

@@ -92,7 +92,7 @@ const Contact = () => {
               rel="noopener noreferrer"
               className="flex items-center gap-3 text-xl hover:text-orange-400 mb-2"
             >
-              <BiLogoGmail></BiLogoGmail> aminulislamrahat134@gmail.com
+              <BiLogoGmail></BiLogoGmail> aminulrahat63@gmail.com
             </a>
             <a
               href="tel:+8801324184222"
