@@ -11,19 +11,19 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="text-center text-lg lg:text-xl font-playfair font-bold">
+    <nav className="text-center text-lg font-playfair font-bold">
       <div className="text-white w-full p-4 bg-neutral-900 opacity-80 fixed top-0 z-10 hidden lg:block">
         <HashLink
           to="#home"
           smooth
-          className="mr-5 md:mr-10"
+          className="mr-5 md:mr-10 hover:text-orange-400"
         >
           Home
         </HashLink>
         <HashLink
           to="#about"
           smooth
-          className="mr-5 md:mr-10"
+          className="mr-5 md:mr-10 hover:text-orange-400"
           scroll={(el) => scrollWithOffset(el, 100)}
         >
           About
@@ -31,7 +31,7 @@ const NavBar = () => {
         <HashLink
           to="#skills"
           smooth
-          className="mr-5 md:mr-10"
+          className="mr-5 md:mr-10 hover:text-orange-400"
           scroll={(el) => scrollWithOffset(el, 80)}
         >
           Skills
@@ -69,7 +69,7 @@ const NavBar = () => {
           Blog
         </a>
       </div>
-      <div className="dropdown lg:hidden fixed top-0 z-10">
+      <div className="dropdown fixed top-0 z-10 left-2 lg:hidden">
         <label
           tabIndex={0}
           className="btn btn-ghost btn-circle bg-orange-500 mt-4"

@@ -3,6 +3,8 @@ import cookbook from "../../assets/images/cookbook.png";
 import kidstoy from "../../assets/images/kidstoy.png";
 import music from "../../assets/images/music.png";
 import sales from "../../assets/images/sales.png";
+import matlabGui from "../../assets/images/MatlabGui.png";
+import bistro from "../../assets/images/bistro.png";
 
 const Projects = () => {
   const projectsData = [
@@ -36,6 +38,16 @@ const Projects = () => {
     },
     {
       id: 4,
+      img: bistro,
+      liveLink: "https://bistro-boss-client-987d5.web.app/",
+      projectName: "Bistro Boss Restaurant",
+      techonologies:
+        "ReactJS, MongoDB, Tailwind CSS, Express JS, Firebase, Axios, Tanstack query, JWT, Payment System",
+      client: "https://github.com/Aminul667/bistro-boss-m74",
+      server: "https://github.com/Aminul667/bistro-boss-m74-server",
+    },
+    {
+      id: 5,
       img: sales,
       liveLink:
         "https://github.com/Aminul667/Project_DA/blob/main/SalesAnalysis/SalesAnalysis.ipynb",
@@ -43,9 +55,15 @@ const Projects = () => {
       techonologies: "Python, Pandas, Matplotlib, Seaborn, Data Manipulation",
       client: "https://github.com/Aminul667/Project_DA/tree/main/SalesAnalysis",
     },
+    {
+      id: 6,
+      img: matlabGui,
+      liveLink: "https://www.youtube.com/watch?v=u4_Tn_UCD_k",
+      projectName: "GUI for solving Parabolic IBVP",
+      techonologies: "Matplotlib, Matlab app designer",
+      client: "https://github.com/Aminul667/MatlabGUI",
+    },
   ];
-
-  console.log(projectsData);
 
   return (
     <>
