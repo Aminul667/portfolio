@@ -43,6 +43,8 @@ const Banner = () => {
       "Matlab",
       "SAS",
       "R",
+      "scikit-learn",
+      "TensorFlow"
     ];
 
     const options = {
