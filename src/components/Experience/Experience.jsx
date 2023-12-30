@@ -11,7 +11,7 @@ const Experience = () => {
       id: 2,
       companyPosition:
         "Statistical Programmer I, Shafi Consultancy, Sylhet, Bangladesh",
-      Skills: "SAS, Python, R, Clinical Trials",
+      skills: "SAS, Python, R, Clinical Trials",
       date: "Feb 2022 - May 2023",
     },
   ];
@@ -25,16 +25,16 @@ const Experience = () => {
             key={professional.id}
             className="border-l-2 border-orange-400 px-4 py-1 mb-5"
           >
-            <p className="text-2xl font-semibold">Jun 2023 - Present</p>
+            <p className="text-2xl font-semibold">{professional.date}</p>
             <p className="text-lg font-semibold">
-              Statistical Programmer II, Shafi Consultancy, Sylhet, Bangladesh
+              {professional.companyPosition}
             </p>
             <p className="text-lg font-semibold">
-              Skills: SAS, Python, SQL, Clinical Database, NONMEM
+              Skills: {professional.skills}
             </p>
           </div>
         ))}
-        <div className="border-l-2 border-orange-400 px-4 py-1 mb-5">
+        {/* <div className="border-l-2 border-orange-400 px-4 py-1 mb-5">
           <p className="text-2xl font-semibold">Feb 2022 - May 2023</p>
           <p className="text-lg font-semibold">
             Statistical Programmer I, Shafi Consultancy, Sylhet, Bangladesh
@@ -64,7 +64,7 @@ const Experience = () => {
             Skills: Python, NumPy, Pandas, Matplotlib, Seaborn, Data
             Manipulation, Data Visualization
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   );
