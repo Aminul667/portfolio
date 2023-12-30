@@ -62,9 +62,21 @@ const Experience = () => {
     },
   ];
 
+  const volunteerExperience = [
+    {
+      id: 1,
+      companyPosition:
+        "Volunteer, SUST Math Society, Department of Mathematics, SUST",
+      skills: "organize various programs, including mathematics competitions, cultural events, departmental tours, orientation programs, and charity events",
+      date: "Mar 2016 – Sep 2018",
+    },
+  ];
+
   return (
     <div className="px-8 lg:px-24 mt-10 font-playfair" id="experience">
       <h2 className="font-normal mb-3 text-3xl lg:text-5xl">Experience</h2>
+
+      {/* professional experience */}
       <div className="ml-5">
         <h3 className="text-2xl mb-4 font-medium">Professional Experience</h3>
         {professionalExperience.map((professional) => (
@@ -83,6 +95,7 @@ const Experience = () => {
         ))}
       </div>
 
+      {/* teaching experience */}
       <div className="ml-5">
         <h3 className="text-2xl mb-4 font-medium">Teaching Experience</h3>
         {teachingExperience.map((teaching) => (
@@ -96,6 +109,25 @@ const Experience = () => {
             </p>
             <p className="text-lg font-semibold">
               Skills: {teaching.skills}
+            </p>
+          </div>
+        ))}
+      </div>
+
+      {/* Volunteer Experience */}
+      <div className="ml-5">
+        <h3 className="text-2xl mb-4 font-medium">Volunteer Experience</h3>
+        {volunteerExperience.map((volunteer) => (
+          <div
+            key={volunteer.id}
+            className="border-l-2 border-orange-400 px-4 py-1 mb-5"
+          >
+            <p className="text-2xl font-semibold">{volunteer.date}</p>
+            <p className="text-lg font-semibold">
+              {volunteer.companyPosition}
+            </p>
+            <p className="text-lg font-semibold">
+              Skills: {volunteer.skills}
             </p>
           </div>
         ))}
