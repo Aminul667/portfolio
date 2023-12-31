@@ -5,9 +5,36 @@ import music from "../../assets/images/music.png";
 import sales from "../../assets/images/sales.png";
 import matlabGui from "../../assets/images/MatlabGui.png";
 import bistro from "../../assets/images/bistro.png";
+import heartAttack from "../../assets/images/heartAttack.png";
+import patientProfile from "../../assets/images/patientProfile.png";
+import covid19 from "../../assets/images/covid19.png";
 
 const Projects = () => {
   const projectsData = [
+    {
+      id: 7,
+      img: heartAttack,
+      liveLink: "https://github.com/Aminul667/heart_attack_prediction/blob/main/program/heart_attack_prediction.ipynb",
+      projectName: "Heart Attack Prediction",
+      techonologies: "Python, NumPy, Pandas, Plotly, scikit-learn",
+      client: "https://github.com/Aminul667/heart_attack_prediction"
+    },
+    {
+      id: 8,
+      img: patientProfile,
+      liveLink: "https://patient-profile.streamlit.app",
+      projectName: "Patient Profile",
+      techonologies: "Python, NumPy, Pandas, Plotly, Streamlit",
+      client: "https://github.com/Aminul667/webapp-profile"
+    },
+    {
+      id: 9,
+      img: covid19,
+      liveLink: "https://www.kaggle.com/code/rahathossain096/about-covid19-visualization",
+      projectName: "The COVID-19 Data Analysis and Visualization",
+      techonologies: "Python, NumPy, Pandas, Matplotlib, Seaborn, Plotly",
+      client: "https://www.kaggle.com/code/rahathossain096/about-covid19-visualization"
+    },
     {
       id: 1,
       img: kidstoy,
