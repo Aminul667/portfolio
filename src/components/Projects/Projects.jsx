@@ -12,31 +12,51 @@ import covid19 from "../../assets/images/covid19.png";
 const Projects = () => {
   const projectsData = [
     {
-      id: 7,
+      id: 1,
       img: heartAttack,
-      liveLink: "https://github.com/Aminul667/heart_attack_prediction/blob/main/program/heart_attack_prediction.ipynb",
+      liveLink:
+        "https://github.com/Aminul667/heart_attack_prediction/blob/main/program/heart_attack_prediction.ipynb",
       projectName: "Heart Attack Prediction",
       techonologies: "Python, NumPy, Pandas, Plotly, scikit-learn",
-      client: "https://github.com/Aminul667/heart_attack_prediction"
+      client: "https://github.com/Aminul667/heart_attack_prediction",
     },
     {
-      id: 8,
+      id: 2,
       img: patientProfile,
       liveLink: "https://patient-profile.streamlit.app",
       projectName: "Patient Profile",
       techonologies: "Python, NumPy, Pandas, Plotly, Streamlit",
-      client: "https://github.com/Aminul667/webapp-profile"
+      client: "https://github.com/Aminul667/webapp-profile",
     },
     {
-      id: 9,
+      id: 3,
       img: covid19,
-      liveLink: "https://www.kaggle.com/code/rahathossain096/about-covid19-visualization",
+      liveLink:
+        "https://www.kaggle.com/code/rahathossain096/about-covid19-visualization",
       projectName: "COVID-19 data analysis",
       techonologies: "Python, NumPy, Pandas, Matplotlib, Seaborn, Plotly",
-      client: "https://www.kaggle.com/code/rahathossain096/about-covid19-visualization"
+      client:
+        "https://www.kaggle.com/code/rahathossain096/about-covid19-visualization",
     },
     {
-      id: 1,
+      id: 4,
+      img: sales,
+      liveLink:
+        "https://github.com/Aminul667/Project_DA/blob/main/SalesAnalysis/SalesAnalysis.ipynb",
+      projectName: "Sales Analysis",
+      techonologies: "Python, Pandas, Matplotlib, Seaborn, Data Manipulation",
+      client: "https://github.com/Aminul667/Project_DA/tree/main/SalesAnalysis",
+    },
+    {
+      id: 5,
+      img: matlabGui,
+      liveLink: "https://www.youtube.com/watch?v=u4_Tn_UCD_k",
+      projectName: "GUI for solving Parabolic IBVP",
+      techonologies: "Matplotlib, Matlab app designer",
+      client: "https://github.com/Aminul667/MatlabGUI",
+    },
+    {
+      id: 6,
       img: kidstoy,
       liveLink: "https://b7a11-kids-toy.web.app/",
       projectName: "KidsHero",
@@ -45,7 +65,7 @@ const Projects = () => {
       server: "https://github.com/Aminul667/kids-hero-server",
     },
     {
-      id: 2,
+      id: 7,
       img: cookbook,
       liveLink: "https://b710-chef-recipe-1e36e.web.app/",
       projectName: "CookBook",
@@ -54,7 +74,7 @@ const Projects = () => {
       server: "https://github.com/Aminul667/cook-book-server",
     },
     {
-      id: 3,
+      id: 8,
       img: music,
       liveLink: "https://b712-school-music.web.app/",
       projectName: "SchoolOfMusic",
@@ -64,7 +84,7 @@ const Projects = () => {
       server: "https://github.com/Aminul667/school-of-music-server",
     },
     {
-      id: 4,
+      id: 9,
       img: bistro,
       liveLink: "https://bistro-boss-client-987d5.web.app/",
       projectName: "Bistro Boss Restaurant",
@@ -72,23 +92,6 @@ const Projects = () => {
         "ReactJS, MongoDB, Tailwind CSS, Express JS, Firebase, Axios, Tanstack query, JWT, Payment System",
       client: "https://github.com/Aminul667/bistro-boss-m74",
       server: "https://github.com/Aminul667/bistro-boss-m74-server",
-    },
-    {
-      id: 5,
-      img: sales,
-      liveLink:
-        "https://github.com/Aminul667/Project_DA/blob/main/SalesAnalysis/SalesAnalysis.ipynb",
-      projectName: "Sales Analysis",
-      techonologies: "Python, Pandas, Matplotlib, Seaborn, Data Manipulation",
-      client: "https://github.com/Aminul667/Project_DA/tree/main/SalesAnalysis",
-    },
-    {
-      id: 6,
-      img: matlabGui,
-      liveLink: "https://www.youtube.com/watch?v=u4_Tn_UCD_k",
-      projectName: "GUI for solving Parabolic IBVP",
-      techonologies: "Matplotlib, Matlab app designer",
-      client: "https://github.com/Aminul667/MatlabGUI",
     },
   ];
 
