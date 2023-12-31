@@ -31,7 +31,7 @@ const Projects = () => {
       id: 9,
       img: covid19,
       liveLink: "https://www.kaggle.com/code/rahathossain096/about-covid19-visualization",
-      projectName: "The COVID-19 Data Analysis and Visualization",
+      projectName: "COVID-19 data analysis",
       techonologies: "Python, NumPy, Pandas, Matplotlib, Seaborn, Plotly",
       client: "https://www.kaggle.com/code/rahathossain096/about-covid19-visualization"
     },
