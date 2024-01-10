@@ -16,17 +16,38 @@ const About = () => {
           About Me
         </h2>
         <p className="text-lg mb-3 font-medium">
-          Hello, I am Aminul, and I am a mathematics enthusiast with a profound love for programming. Graduating with a degree in mathematics has equipped me with a solid foundation in analytical thinking and problem-solving. But my journey extends beyond the world of equations and proofs, as I have discovered a deep passion for the art of coding and software development.
+          Hello, I am Aminul, and I am a mathematics enthusiast with a profound
+          love for programming. Graduating with a degree in mathematics has
+          equipped me with a solid foundation in analytical thinking and
+          problem-solving. But my journey extends beyond the world of equations
+          and proofs, as I have discovered a deep passion for the art of coding.
         </p>
         <p className="text-lg mb-3 font-medium">
-        For me, programming is not just a skill. It is a creative outlet and a means to bring abstract mathematical concepts to life. I revel in the process of crafting lines of code to build practical and innovative solutions. Whether it is developing web applications, optimizing algorithms, or delving into the intricacies of data analysis, I find programming to be a source of inspiration and empowerment.
+          For me, programming is not just a skill. It is a creative outlet and a
+          means to bring abstract mathematical concepts to life. I revel in
+          crafting lines of code to build practical and innovative solutions. My
+          enthusiasm for the synergy between mathematics and programming extends
+          to my research interests. I am actively involved in exploring how
+          mathematical principles can address real-world problems, with a
+          particular focus on algorithmic optimization, machine learning, and
+          the application of mathematics in solving practical challenges. My
+          proficiency in mathematics, combined with programming skills, provides
+          a unique framework for addressing real-world problems. This
+          integration empowers me to think critically and devise effective
+          solutions to challenges in diverse domains.
         </p>
         <p className="text-lg mb-3 font-medium">
-          As a natural problem solver, I relish challenges and approach them with a proactive and innovative mindset. I am adaptable and thrive in fast-paced environments, where I can leverage my strong analytical skills to identify and implement efficient solutions.
+          As a natural problem solver, I relish challenges and approach them
+          with a proactive and innovative mindset. I am adaptable and thrive in
+          fast-paced environments, where I can leverage my strong analytical
+          skills to identify and implement efficient solutions.
         </p>
         <p className="text-lg mb-3 font-medium">
-          Continuous learning is an integral part of my professional journey. I am committed to staying up-to-date with the latest industry trends and technologies, always seeking new opportunities to enhance my skill set
-          and deliver cutting-edge solutions.
+          Continuous learning is an integral part of my professional journey. I
+          am committed to staying up-to-date with the latest industry trends and
+          technologies, always seeking new opportunities to enhance my skill set
+          and deliver cutting-edge solutions to real-world challenges through my
+          research endeavors.
         </p>
       </div>
     </div>
