@@ -44,7 +44,9 @@ const Banner = () => {
       "SAS",
       "R",
       "scikit-learn",
-      "TensorFlow"
+      "TensorFlow",
+      "Machine Learning",
+      "Deep Learning"
     ];
 
     const options = {
