@@ -10,7 +10,17 @@ import "react-toastify/dist/ReactToastify.css";
 const Contact = () => {
   const form = useRef();
 
-  const notify = () => toast("Message has been sent!");
+  const successMessage = () => {
+    toast.success("Message has been sent!", {
+      position: toast.POSITION.TOP_CENTER
+    });
+  };
+
+  const errorMessage = () => {
+    toast.error("Something went wrong! Please try another option", {
+      position: toast.POSITION.TOP_CENTER
+    });
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -25,16 +35,20 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          notify();
+          successMessage();
         },
         (error) => {
           console.log(error.text);
+          errorMessage();
         }
       );
   };
 
   return (
-    <div className="px-8 py-6 lg:px-28 lg:py-12 mt-10 bg-neutral-900 text-white font-playfair" id="contact">
+    <div
+      className="px-8 py-6 lg:px-28 lg:py-12 mt-10 bg-neutral-900 text-white font-playfair"
+      id="contact"
+    >
       <div className="flex items-center justify-center lg:justify-normal gap-3 text-3xl lg:text-5xl font-normal mb-4">
         <SiMinutemailer></SiMinutemailer>
         <h2>Get in Touch</h2>
@@ -77,7 +91,7 @@ const Contact = () => {
                 value="Send"
                 className="w-full font-medium text-xl px-5 py-1 rounded-md bg-orange-500 hover:bg-orange-600 cursor-pointer"
               />
-              <ToastContainer/>
+              <ToastContainer />
             </div>
           </form>
         </div>
